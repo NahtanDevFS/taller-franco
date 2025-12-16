@@ -1,0 +1,82 @@
+.section {
+  padding: 80px 0;
+  background: linear-gradient(180deg, var(--bg-deep) 0%, #000 100%);
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: var(--text-main);
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.socialCard {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 30px 50px;
+  border-radius: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 250px;
+  backdrop-filter: blur(5px);
+}
+
+.socialCard:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.whatsapp:hover {
+  border-color: #25d366;
+  box-shadow: 0 0 20px rgba(37, 211, 102, 0.2);
+}
+
+.facebook:hover {
+  border-color: #1877f2;
+  box-shadow: 0 0 20px rgba(24, 119, 242, 0.2);
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp .icon {
+  color: #25d366;
+}
+.facebook .icon {
+  color: #1877f2;
+}
+
+.cardText {
+  color: var(--text-main);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.cardAction {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 5px;
+}

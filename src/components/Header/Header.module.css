@@ -1,0 +1,62 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 12, 64, 0.7);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  padding: 1rem 0;
+}
+.headerHidden {
+  transform: translateY(-100%);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--text-main);
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.logoImage {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  background-color: #f6faff;
+  border-radius: 5px;
+}
+
+.contactBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--accent-orange);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.contactBtn:hover {
+  background-color: var(--accent-orange-hover);
+}
+
+.whatsappIcon {
+  font-size: 1.2rem;
+  color: #25d366;
+}

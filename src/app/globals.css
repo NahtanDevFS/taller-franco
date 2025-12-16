@@ -1,27 +1,18 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --bg-deep: #000c40;
+  --bg-lighter: #0a194f;
+  --bg-gradient: linear-gradient(90deg, #000c40 0%, #001550 100%);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --accent-orange: #ff6600;
+  --accent-orange-hover: #ff8533;
+  --primary-blue: #3a7bd5;
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
+  --text-main: #e6e6e6;
+  --text-muted: #a0aec0;
+  --silver-metallic: #bdc3c7;
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --max-width: 1200px;
+  --font-main: system-ui, -apple-system, sans-serif;
 }
 
 * {
@@ -30,13 +21,17 @@ body {
   margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+body {
+  font-family: var(--font-main);
+  background: var(--bg-deep);
+  background-image: var(--bg-gradient);
+  background-attachment: fixed;
+  color: var(--text-main);
+  overflow-x: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 20px;
 }
