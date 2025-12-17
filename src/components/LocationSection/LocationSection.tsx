@@ -46,7 +46,7 @@ export default function LocationSection() {
           <div className={styles.visualsGrid}>
             <div className={styles.imageCard}>
               <img
-                src="/taller.jpg"
+                src="/taller.webp"
                 alt="Fachada Taller Franco"
                 className={styles.locationImage}
               />
@@ -55,7 +55,7 @@ export default function LocationSection() {
 
             <div className={styles.imageCard}>
               <img
-                src="/vista_hacia_afuera_taller.jpg"
+                src="/vista_hacia_afuera_taller.webp"
                 alt="Vista hacia la calle"
                 className={styles.locationImage}
               />

@@ -12,7 +12,7 @@ export default function Home() {
     <main>
       <Header />
 
-      <HeroSection bgImageSrc="/taller.svg" />
+      <HeroSection bgImageSrc="/taller_with_filter.webp" />
 
       <div id="servicios">
         <FeatureSection
