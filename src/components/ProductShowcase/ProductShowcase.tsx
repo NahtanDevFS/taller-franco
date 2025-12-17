@@ -20,7 +20,7 @@ export default function ProductShowcase({ products }: ProductShowcaseProps) {
           <h2 className={styles.mainTitle}>Repuestos y productos</h2>
           <p className={styles.subtitle}>
             Utilizamos y vendemos únicamente componentes de calidad comprobada
-            para garantizar la vida útil de tu motor.
+            para garantizar la vida útil de tu vehículo.
           </p>
         </div>
 
