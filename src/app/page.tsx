@@ -12,7 +12,7 @@ export default function Home() {
     <main>
       <Header />
 
-      <HeroSection bgImageSrc="/taller_with_filter_reduced_size.webp" />
+      <HeroSection bgImageSrc="/taller_with_filter_reduced_size.jpeg" />
 
       <div id="servicios">
         <FeatureSection
