@@ -19,14 +19,14 @@ export default function FeatureSection({
   const bgStyle = isReversed
     ? { backgroundColor: "var(--bg-lighter)" }
     : { backgroundColor: "transparent" };
+
+  const gridClasses = `${styles.grid} ${isReversed ? styles.gridReversed : ""}`;
+
   return (
     <section className={styles.section} style={bgStyle}>
       <div className="container">
-        <div className={styles.grid}>
-          <div
-            className={styles.imageWrapper}
-            style={{ order: isReversed ? 2 : 1 }}
-          >
+        <div className={gridClasses}>
+          <div className={styles.imageWrapper}>
             <Image
               src={imageSrc}
               alt={`Imagen ilustrativa para ${title}`}
@@ -36,7 +36,7 @@ export default function FeatureSection({
             />
           </div>
 
-          <div className={styles.content} style={{ order: isReversed ? 1 : 2 }}>
+          <div className={styles.content}>
             <h2 className={styles.title}>{title}</h2>
             <ul className={styles.list}>
               {items.map((item, index) => (

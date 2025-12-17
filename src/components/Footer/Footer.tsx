@@ -4,6 +4,13 @@ import styles from "./Footer.module.css";
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
+  const NAV_LINKS = [
+    { name: "Inicio", href: "/" },
+    { name: "Servicios", href: "#servicios" },
+    { name: "Repuestos", href: "#repuestos" },
+    { name: "Ubicación", href: "#ubicacion" },
+  ];
+
   return (
     <footer className={styles.footer}>
       <div className="container">
@@ -17,12 +24,11 @@ export default function Footer() {
           </div>
 
           <nav className={styles.linksColumn}>
-            <Link href="/" className={styles.link}>
-              Inicio
-            </Link>
-            <span className={styles.link}>Servicios</span>
-            <span className={styles.link}>Repuestos</span>
-            <span className={styles.link}>Contacto</span>
+            {NAV_LINKS.map((link) => (
+              <Link key={link.name} href={link.href} className={styles.link}>
+                {link.name}
+              </Link>
+            ))}
           </nav>
         </div>
 
