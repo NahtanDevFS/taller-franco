@@ -30,8 +30,13 @@ export default function FeatureSection({
             <Image
               src={imageSrc}
               alt={`Imagen ilustrativa para ${title}`}
-              fill
+              width={800}
+              height={800}
               className={styles.image}
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>

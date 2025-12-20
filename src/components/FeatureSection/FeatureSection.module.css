@@ -21,13 +21,12 @@
   order: 2;
   position: relative;
   width: 100%;
-  height: auto;
-  aspect-ratio: 13 / 9;
 
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  display: block;
 }
 
 @media (min-width: 768px) {
@@ -40,9 +39,8 @@
   }
 
   .imageWrapper {
-    height: 400px;
-    aspect-ratio: auto;
     order: 1;
+    height: fit-content;
   }
 
   .content {
@@ -118,7 +116,8 @@
 }
 
 .image {
-  object-fit: cover;
+  object-fit: contain;
+  display: block;
   transition: transform 0.5s ease;
 }
 

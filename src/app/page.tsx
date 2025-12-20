@@ -17,7 +17,7 @@ export default function Home() {
       <div id="servicios">
         <FeatureSection
           title="Nuestros servicios"
-          imageSrc="/car_with_parts.webp"
+          imageSrc="/carro_partes_cut.jpg"
           items={[
             "Mantenimientos preventivos y correctivos.",
             "Reparaciones de motor.",
