@@ -89,35 +89,70 @@ export default function Home() {
               title: "Suspensión 555",
               description:
                 "Repuestos de suspensión de calidad japonesa 555 para garantizar la estabilidad y confort de tu manejo.",
-              imageSrc: "/productos/suspension_555.jpg",
+              imageSrc: "/productos/suspension_555.jpeg",
             },
             {
               id: 4,
               title: "Baterías América",
               description:
                 "Potencia de arranque confiable y larga duración para mantener tu vehículo en movimiento bajo cualquier condición.",
-              imageSrc: "/productos/baterias_america.jpg",
+              imageSrc: "/productos/baterias.jpeg",
             },
             {
               id: 5,
               title: "Filtros de aceite Fram",
               description:
                 "Protección superior para tu motor, atrapando impurezas y asegurando una lubricación limpia y eficiente.",
-              imageSrc: "/productos/filtros_aceites.jpg",
+              imageSrc: "/productos/filtro_aceite.jpeg",
             },
             {
               id: 6,
               title: "Fajas Gates",
               description:
                 "Correas de transmisión líderes en la industria, resistentes al calor y al desgaste para un rendimiento óptimo.",
-              imageSrc: "/productos/fajas.jpg",
+              imageSrc: "/productos/fajas.jpeg",
             },
             {
               id: 7,
-              title: "Filtros de aire Lemko",
+              title: "Filtros de aire",
               description:
                 "Filtración de alta eficiencia que garantiza aire limpio para una mejor combustión y ahorro de combustible.",
-              imageSrc: "/productos/filtros_aires.jpg",
+              imageSrc: "/productos/filtro_aire.jpeg",
+            },
+            {
+              id: 8,
+              title: "Grasas Roshfrans",
+              description:
+                "Lubricación de alto desempeño para chasis y rodamientos, diseñada para resistir altas temperaturas y proteger contra el desgaste.",
+              imageSrc: "/productos/grasas.jpeg",
+            },
+            {
+              id: 9,
+              title: "Líquido de frenos Senfineco",
+              description:
+                "Fluido DOT-4 de tecnología alemana que asegura una respuesta de frenado inmediata y protege el sistema contra la corrosión.",
+              imageSrc: "/productos/liquido_frenos.jpeg",
+            },
+            {
+              id: 10,
+              title: "Fluidos de dirección hidráulica",
+              description:
+                "Mantén una dirección suave y silenciosa con nuestras opciones de marcas líderes como Supers y Prestone, formuladas para evitar fugas.",
+              imageSrc: "/productos/direccion_hidraulica.jpeg",
+            },
+            {
+              id: 11,
+              title: "Guarda polvos",
+              description:
+                "Protección esencial para las juntas homocinéticas y la dirección, evitando la entrada de suciedad para prolongar la vida útil de tus ejes.",
+              imageSrc: "/productos/guarda_polvos.jpeg",
+            },
+            {
+              id: 12,
+              title: "Fusibles Automotrices",
+              description:
+                "Protección indispensable para el sistema eléctrico. Contamos con fusibles de múltiples amperajes para prevenir daños por sobrecargas en cualquier circuito de tu auto.",
+              imageSrc: "/productos/fusibles.jpeg",
             },
           ]}
         />
